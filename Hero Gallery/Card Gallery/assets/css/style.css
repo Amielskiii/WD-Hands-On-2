@@ -1,0 +1,118 @@
+body {
+    font-family: 'Pixelify Sans', sans-serif;
+    background-color: #000000;
+    background-image: url('https://3.bp.blogspot.com/-Cdhj0ZnJ-qg/Vmq8l_uoPGI/AAAAAAAAFGQ/y-93wHhXnCQ/s1600/698675161c065b3d319942b30a109ebcf2abc991_hq.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh; 
+}
+
+.header {
+    background-color: #000000;
+    width: 100%;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.header .container {
+    display: flex;
+    justify-content: center;
+}
+
+.header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.header nav ul li {
+    display: inline;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.header nav ul li a:hover {
+    background-color: #000000;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    width: 300px; 
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; 
+    transition: transform 0.3s;
+}
+
+.card-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card h2 {
+    margin: 0 0 10px;
+}
+
+.card p {
+    margin: 0 0 20px;
+}
+
+.button {
+    background-color: #fbee00;
+    border: none;
+    border-radius: 5px;
+    color: rgb(209, 0, 0);
+    cursor: pointer;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.button:hover {
+    background-color: #b79d0d;
+    transform: translateY(-3px);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card:hover img {
+    transform: scale(1.1);
+}

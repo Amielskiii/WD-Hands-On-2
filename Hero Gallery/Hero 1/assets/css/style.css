@@ -1,0 +1,100 @@
+body {
+    font-family: 'Pixelify Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://i.pinimg.com/originals/84/ce/a9/84cea9870b1acb5f7ba43ffff5e5448e.gif');
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.member-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.member {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    max-width: 600px;
+}
+
+.member img {
+    width: 150px;
+    height: auto;
+    border-radius: 0%;
+    margin-right: 10px;
+}
+
+.member .details {
+    flex-grow: 1;
+}
+
+.member .details .title {
+    display: flex;
+    flex-direction: column;
+}
+
+.member h1 {
+    margin: 0;
+    color: #f8f8f8;
+    font-size: 32px;
+}
+
+.member h2 {
+    margin: 0;
+    color: #f8f8f8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.member .details p {
+    margin: 10px 0 0 0;
+    color: #e1a73d;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-container ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav-container ul li {
+    margin: 0 10px;
+}
