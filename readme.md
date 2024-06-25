@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/Amielskiii/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="../WD-Hands-On-2/Hero Gallery/Hero 5/assets/image/Garou 2.png" alt="Garou" width="130" height="100">
+    <img src="../WD-Hands-On-2/Hero Gallery/Hero 5/assets/image/Garou 2.png">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">WD-Hands-On-2</h3>
