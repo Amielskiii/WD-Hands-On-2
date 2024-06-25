@@ -59,11 +59,6 @@
 <!-- The following are just sample -->
 The projects shows what we learned in HTML by coding various types of Hero Cards, and Card Gallery.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -116,4 +111,23 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| zyx-0314 | Template for the Hands On 2 | https://github.com/zyx-0314/WD-Template-Project |
+| Google | For GIFs/PNGs/ |https://www.google.com/ |
+| Fonts | For desigining the texts in my project |https://fonts.google.com/|
+| Saitama GIF | For GIF background in my landing page | https://preview.redd.it/rn6gwpi3bgu11.gif?width=500&auto=webp&s=2e77433f6328f692616f4f7952667d30d83602a7
+| Genos | Hero 1 GIF background | https://i.pinimg.com/originals/84/ce/a9/84cea9870b1acb5f7ba43ffff5e5448e.gifgif
+| King | Hero 2 GIF background | https://64.media.tumblr.com/bfa88447c156e886f4499efd2e85a436/tumblr_o7une2LCul1t11lc1o3_r2_500.gif
+| Silver Fang | Hero 3 GIF background | https://www.comicvine.com/a/uploads/original/11131/111312465/7543232-giphy-1.gif
+| Metal Bat | Hero 4 GIF background | https://i.pinimg.com/originals/43/75/1f/43751f6d377c8cceb61b6ee7e3e1b07b.gif
+| Garou | Hero 5 GIF background | https://i.redd.it/iwhh8rgctxw61.gif
+| One Punch Man | Card gallery GIF background | https://3.bp.blogspot.com/-Cdhj0ZnJ-qg/Vmq8l_uoPGI/AAAAAAAAFGQ/y-93wHhXnCQ/s1600/698675161c065b3d319942b30a109ebcf2abc991_hq.gif
+
+## Deployment Link
+https://amielskiii.github.io/WD-Hands-On-2/
+
+## Website
+
+-Short Description
+A project of Hero and Cards with one punch man theme. First page, provides title and description, and navigation buttons for Hero 1 to 5 and to Card Gallery. 
+
+
