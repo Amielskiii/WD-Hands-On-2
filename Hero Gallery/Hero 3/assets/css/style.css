@@ -8,107 +8,100 @@ body {
     font-family: 'Pixelify Sans', sans-serif;
     background-color: #f4f4f4;
     background-image: url('https://www.comicvine.com/a/uploads/original/11131/111312465/7543232-giphy-1.gif');
-    color: #333;
-    line-height: 1.6;
-}
-
-.header {
-    background-color: #5e8cb5;
-    color: #fff;
-    padding: 10px 0;
-}
-
-.header .container {
-    display: flex;
-    justify-content: center;
-}
-
-.header nav ul {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-}
-
-.header nav ul li {
-    display: inline;
-}
-
-.header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    padding: 5px 10px;
-    transition: background-color 0.3s ease;
-}
-
-.header nav ul li a:hover {
-    background-color: #ff6b6b;
-    border-radius: 4px;
-}
-
-.member-container {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 20px;
-}
-
-.member {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.header .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header nav ul li {
+    background-color: transparent;
+    margin: 0 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.header nav ul li a {
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    display: block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header nav ul li a:hover {
+    background-color: black;
+    color: #fff;
+}
+
+
+.member {
+    width: 100%;
     max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.644);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 .member img {
     width: 100%;
+    max-width: 100%;
+    height: auto;
     border-radius: 8px;
 }
 
-.member-details {
-    margin-top: 15px;
-    text-align: center;
+.member .member-details {
+    margin-top: 20px;
 }
 
-.member-details h1 {
-    font-size: 24px;
-    margin-bottom: 5px;
+.member h1,
+.member h2 {
+    margin: 10px 0 0;
+    font-style: italic;
+    font-weight: bold;
+    color: #fff;
 }
 
-.member-details h2 {
-    font-size: 18px;
-    color: #777;
-    margin-bottom: 10px;
-}
-
-.member-details p {
-    font-size: 16px;
-    color: #555;
-}
-
-.description-container {
-    flex: 1;
-    padding: 20px;
-    margin-left: 40px;
-}
-
-.description-container p {
-    font-size: 16px;
+.member p {
+    color: #e7dddd;
     line-height: 1.6;
 }
 
 @media (max-width: 768px) {
-    .member-container {
+    .header .container {
         flex-direction: column;
         align-items: center;
     }
 
-    .description-container {
-        margin-left: 0;
-        margin-top: 20px;
-        text-align: center;
+    .header nav ul {
+        flex-direction: column;
+    }
+
+    .member {
+        width: 90%;
     }
 }

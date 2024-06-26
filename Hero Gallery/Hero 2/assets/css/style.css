@@ -51,10 +51,11 @@ nav ul li a:hover {
     height: calc(100vh - 80px);
     padding: 20px;
     box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.5); 
 }
 
 .member {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: transparent; 
     border-radius: 10px;
     padding: 30px;
     display: flex;
@@ -66,15 +67,12 @@ nav ul li a:hover {
 }
 
 .member img {
-    width: 150px;
+    width: 300px; 
     height: auto;
     border-radius: 10%;
     margin-bottom: 20px;
 }
 
-.member .details {
-    flex-grow: 1;
-}
 
 .member h1 {
     font-size: 24px;
@@ -89,7 +87,6 @@ nav ul li a:hover {
 }
 
 .member p {
-    margin-top: 20px;
     color: #bbb;
 }
 
@@ -107,5 +104,3 @@ nav ul li a:hover {
 .nav-container ul li {
     margin: 0 10px;
 }
-
-
