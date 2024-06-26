@@ -9,14 +9,14 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 0;
-    min-height: 100vh; 
+    min-height: 100vh;
 }
 
 .header {
     background-color: #000000;
     width: 100%;
     padding: 10px 0;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .header .container {
@@ -41,16 +41,16 @@ body {
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
-    transition: background-color 0.3s;
 }
 
 .header nav ul li a:hover {
-    background-color: #000000;
+    background-color: #333333;
 }
 
 .gallery {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
     gap: 20px;
     max-width: 1200px;
     padding: 20px;
@@ -59,25 +59,119 @@ body {
 }
 
 .card {
-    background: rgba(255, 255, 255, 0.8); 
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     overflow: hidden;
-    transition: transform 0.3s;
     display: flex;
     flex-direction: column;
-    width: 300px; 
+    align-items: center;
 }
 
+/* Hero 1 container */
+.card:nth-child(1) {
+    background-color: rgba(245, 177, 42, 0.8); /* Adjusted background color */
+    border: 2px solid #ecbb18; /* Adjusted border color */
+    width: 320px; /* Adjusted width */
+    height: 380px; /* Adjusted height */
+    flex-direction: row; /* Layout change */
+    justify-content: space-between;
+}
+
+.card:nth-child(1) img {
+    width: 60%; /* Adjusted width */
+    height: auto; /* Auto height */
+}
+
+.card:nth-child(1) .card-content {
+    width: 40%; /* Adjusted width */
+    padding: 10px;
+}
+
+/* Hero 2 container */
+.card:nth-child(2) {
+    background-color: rgba(237, 83, 12, 0.8); /* Adjusted background color */
+    border: 2px solid #ec6206; /* Adjusted border color */
+    width: 300px; /* Adjusted width */
+    height: 400px; /* Adjusted height */
+    flex-direction: column-reverse; /* Layout change */
+}
+
+.card:nth-child(2) img {
+    width: 100%; /* Adjusted width */
+    height: 150px; /* Adjusted height */
+}
+
+.card:nth-child(2) .card-content {
+    padding: 20px;
+}
+
+/* Hero 3 container */
+.card:nth-child(3) {
+    background-color: rgba(66, 66, 210, 0.8); /* Adjusted background color */
+    border: 2px solid #5b5bea; /* Adjusted border color */
+    width: 280px; /* Adjusted width */
+    height: 360px; /* Adjusted height */
+    flex-direction: column;
+    align-items: flex-start; /* Layout change */
+}
+
+.card:nth-child(3) img {
+    width: 100%; /* Adjusted width */
+    height: 200px; /* Adjusted height */
+}
+
+.card:nth-child(3) .card-content {
+    width: 100%; /* Adjusted width */
+    padding: 20px;
+}
+
+/* Hero 4 container */
+.card:nth-child(4) {
+    background-color: rgba(237, 35, 35, 0.8); /* Adjusted background color */
+    border: 2px solid #8f0303; /* Adjusted border color */
+    width: 300px; /* Adjusted width */
+    height: 380px; /* Adjusted height */
+    flex-direction: column; /* Layout change */
+    justify-content: space-between;
+}
+
+.card:nth-child(4) img {
+    width: 100%; /* Adjusted width */
+    height: 150px; /* Adjusted height */
+}
+
+.card:nth-child(4) .card-content {
+    width: 100%; /* Adjusted width */
+    padding: 20px;
+}
+
+/* Hero 5 container */
+.card:nth-child(5) {
+    background-color: rgba(252, 252, 252, 0.8); /* Adjusted background color */
+    border: 2px solid #000000; /* Adjusted border color */
+    width: 340px; /* Adjusted width */
+    height: 370px; /* Adjusted height */
+    flex-direction: column; /* Layout change */
+}
+
+.card:nth-child(5) img {
+    width: 100%; /* Adjusted width */
+    height: 150px; /* Adjusted height */
+}
+
+.card:nth-child(5) .card-content {
+    width: 100%; /* Adjusted width */
+    padding: 20px;
+    background-image: url('../Card Gallery/assets/image/background.jpg'); /* Background image */
+    background-size: cover;
+}
+
+/* Shared styles for all cards */
 .card img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover; 
-    transition: transform 0.3s;
+    object-fit: cover;
 }
 
 .card-content {
-    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -86,10 +180,13 @@ body {
 
 .card h2 {
     margin: 0 0 10px;
+    color: #000000;
+    font-size: 1.5rem;
 }
 
 .card p {
     margin: 0 0 20px;
+    color: #000000;
 }
 
 .button {
@@ -101,18 +198,4 @@ body {
     padding: 10px 20px;
     text-decoration: none;
     text-transform: uppercase;
-    transition: background-color 0.3s, transform 0.3s;
-}
-
-.button:hover {
-    background-color: #b79d0d;
-    transform: translateY(-3px);
-}
-
-.card:hover {
-    transform: translateY(-10px);
-}
-
-.card:hover img {
-    transform: scale(1.1);
 }
