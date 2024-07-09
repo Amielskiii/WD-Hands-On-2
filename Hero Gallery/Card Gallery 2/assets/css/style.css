@@ -51,7 +51,7 @@ body {
     padding: 20px;
     box-sizing: border-box;
     margin-top: 20px;
-    flex-wrap: wrap; /* Ensure cards wrap to the next line if space is insufficient */
+    flex-wrap: wrap; 
 }
 
 .card {
@@ -63,14 +63,14 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 15px;
-    width: calc(33.33% - 20px); /* Three cards per row with 20px gap */
+    width: calc(33.33% - 20px); 
     margin-bottom: 20px;
     position: relative;
     transition: transform 0.3s ease-in-out;
 }
 
 .card:hover {
-    transform: translateY(-10px); /* Lift card slightly on hover */
+    transform: translateY(-10px); 
 }
 
 .card img {
@@ -109,48 +109,46 @@ body {
     text-transform: uppercase;
 }
 
-/* No hover effect */
+
 .card-content .button:hover {
-    /* background-color: #b79d0d; */
+
 }
 
-/* Unique styling for each card */
 .card:nth-child(1) {
-    background-color: #eeb15b; /* Orange background */
-    border: 2px solid #eeb15b; /* Orange border */
-    width: calc(50% - 20px); /* Two cards per row with 20px gap */
-    animation: fadeInLeft 5s forwards; /* Animation for the first card */
+    background-color: #eeb15b; 
+    border: 2px solid #eeb15b; 
+    width: calc(50% - 20px); 
+    animation: fadeInLeft 5s forwards; 
 }
 
 .card:nth-child(2) {
-    background-color: #e46d19; /* Green background */
-    border: 2px solid #e46d19; /* Green border */
-    width: calc(33.33% - 20px); /* Three cards per row with 20px gap */
-    animation: bounceInUp 5s forwards; /* Animation for the second card */
+    background-color: #e46d19; 
+    border: 2px solid #e46d19; 
+    width: calc(33.33% - 20px); 
+    animation: bounceInUp 5s forwards; 
 }
 .card:nth-child(3) {
-    background-color: #2196f3; /* Blue background */
-    border: 2px solid #2196f3; /* Blue border */
-    width: 100%; /* One card per row full width */
-    animation: rotateIn 5s forwards; /* Animation for the third card */
+    background-color: #2196f3; 
+    border: 2px solid #2196f3; 
+    width: 100%; 
+    animation: rotateIn 5s forwards; 
 }
 
 .card:nth-child(4) {
-    background-color: #f44336; /* Red background */
-    border: 2px solid #f44336; /* Red border */
-    width: calc(25% - 20px); /* Four cards per row with 20px gap */
-    height: 250px; /* Fixed height */
-    border-radius: 10px; /* Rounded corners */
-    animation: flipInX 5s forwards; /* Animation for the fourth card */
+    background-color: #f44336; 
+    border: 2px solid #f44336; 
+    height: 250px;
+    border-radius: 10px;
+    animation: flipInX 5s forwards;
 }
 
 .card:nth-child(5) {
-    background-color: #f3f3f3; /* Purple background */
-    border: 2px solid #000000; /* Purple border */
-    width: calc(25% - 20px); /* Four cards per row with 20px gap */
-    height: 300px; /* Fixed height */
-    border-radius: 50% 50% 0 0; /* Semi-circle top */
-    animation: scaleIn 5s forwards; /* Animation for the fifth card */
+    background-color: #f3f3f3; 
+    border: 2px solid #000000; 
+    width: calc(25% - 20px); 
+    height: 300px; 
+    border-radius: 50% 50% 0 0; 
+    animation: scaleIn 5s forwards;
 }
 
 
@@ -209,7 +207,6 @@ body {
     }
 }
 
-/* Animations for hero containers */
 .card:nth-child(1) .card-content {
     animation: fadeInLeft 1s forwards;
 }
